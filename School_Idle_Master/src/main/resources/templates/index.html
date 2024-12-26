@@ -1,10 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-	<meta charset="utf-8">
-	<title>学園アイドルマスター　情報サイト</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学園アイドルマスター - ホーム</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-	<h1>Hello World</h1>
+
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="logo">
+            <a href="/" class="logo-link">
+                <h1>学園アイドルマスター</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/login">ログイン</a></li>
+                <li><a href="/calculation">計算機</a></li>
+                <li><a href="/myPage">マイページ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>学園アイドルマスターへようこそ！</h2>
+            <p>あなたのアイドルライフがここから始まります。</p>
+            <a href="/login" class="hero-button">ログインして始める</a>
+        </div>
+    </section>
+
+    <!-- サービスセクション (フッターの上に移動) -->
+    <section class="services">
+        <h3>このサイトについて</h3>
+        <div class="service-cards">
+            <div class="service-card">
+                <h4>アイドル計算機</h4>
+                <p>アイドルのパラメータを入力し、ランクを計算します。難易度や試験順位に応じてランクが決まります。</p>
+                <a href="/calculation" class="service-link">計算機へ</a>
+            </div>
+            <div class="service-card">
+                <h4>マイページ</h4>
+                <p>あなたの成績やアイドルの情報を管理できます。自分だけのアイドルを作成しましょう。</p>
+                <a href="/myPage" class="service-link">マイページへ</a>
+            </div>
+            <div class="service-card">
+                <h4>？？？？</h4>
+                <p>？？？？？？？？？？</p>
+                <a href="/" class="service-link">？？？？？へ</a>
+            </div>
+            <div class="service-card">
+                <h4>公式サイト</h4>
+                <p>学園アイドルマスター公式サイトへ遷移します。</p>
+                <a href="https://gakuen.idolmaster-official.jp/" class="service-link" target="_blank">公式サイトへ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <p>&copy; 2024 学園アイドルマスター All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
